@@ -1,0 +1,21 @@
+ 
+<domain type="kvm" id="5">
+  <name>winxp</name>
+  <uuid>62a197ae-a4e0-4f8e-a689-5fa76e0191d7</uuid>
+  <title>Microsoft Windows XP</title>
+  <metadata>
+    <boxes:gnome-boxes xmlns:boxes="https://wiki.gnome.org/Apps/Boxes">
+      <os-state>installed</os-state>
+      <media-id>http://microsoft.com/win/xp:1</media-id>
+      <media>/home/maxwell/Virtual_Machines/Windows XP Professional 64-bit Corporate Edition(CD Key VCFQD-V9FX9-46WVH-K3CD4-4J3JM).iso</media>
+    </boxes:gnome-boxes>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/xp"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory unit="KiB">2240512</memory>
+  <currentMemory unit="KiB">2240512</currentMemory>
+  <vcpu placement="static">12</vcpu>
+  <os>
+    <type arch="x86_64" machine="pc-i440fx-5.2">hvm</type>
+    <boot dev="hd"/>
