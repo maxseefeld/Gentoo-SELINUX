@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    //creating strings and entering values
+    	//creating strings and entering values
 	string partition;
 	cout << "Enter the partition you want to mount: \n";
 	cin >> partition;
