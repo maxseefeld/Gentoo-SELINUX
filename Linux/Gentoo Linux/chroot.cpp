@@ -28,5 +28,5 @@ int main()
 	system("cp /etc/resolv.conf /mnt/mychroot/etc");
 	system("chroot /mnt/mychroot /bin/bash");
 	system("env-update && . /etc/profile");
-    return 0;
+    	return 0;
 }
