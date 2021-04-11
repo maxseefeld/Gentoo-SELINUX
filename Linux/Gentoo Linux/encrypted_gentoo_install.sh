@@ -1,7 +1,7 @@
 !/bin/bash
 ##Maxwell seefeld
 ##1/13/2021
-##version 0.0 
+##version 0.
 
 echo "Welcome to the Gentoo install program."
 echo "-----------------------------------------------"
