@@ -1,4 +1,8 @@
 #!bin/bash
+#disk creation script 
+#maxwell seefeld
+#4/11/2021
+
 sudo su
 parted -a optimal /dev/nvme0n1
 unit mib
